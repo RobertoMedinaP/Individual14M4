@@ -39,6 +39,7 @@ public class Fragmento2 extends Fragment {
     public static Fragmento2 newInstance(String nombre1, String nombre2) {
         Fragmento2 fragment = new Fragmento2();
         Bundle args = new Bundle();
+        //Importante mantener los mismos nombres
         args.putString("Clave1", nombre1);
         args.putString("clave2", nombre2);
         fragment.setArguments(args);
@@ -48,6 +49,7 @@ public class Fragmento2 extends Fragment {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         if (getArguments() != null) {
+            //ojo Clave1 y clave 2
             nombre1 = getArguments().getString("Clave1");
             nombre2 = getArguments().getString("clave2");
         }

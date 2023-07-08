@@ -10,7 +10,7 @@ import com.example.individual14m4.Pregunta;
 import com.example.individual14m4.Fragmento2;
 
 import com.example.individual14m4.databinding.ActivityMainBinding;
-
+//Fijarse que la implementacion para fragmento sea igual en todas las clases
 public class MainActivity extends AppCompatActivity {
 
     private ActivityMainBinding binding;
