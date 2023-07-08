@@ -11,7 +11,7 @@ plugins {
 }
 
 android {
-    namespace 'com.example.individual14m4'
+
     compileSdk 33
 
     buildFeatures {
@@ -19,6 +19,7 @@ android {
     }
 
     defaultConfig {
+        namespace 'com.example.individual14m4'
         applicationId "com.example.individual14m4"
         minSdk 29
         targetSdk 33
@@ -48,7 +49,7 @@ dependencies {
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.5'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
-    def fragment_version = "1.5.7"
+    def fragment_version = "1.5.5"
 
     // Java language implementation
     implementation "androidx.fragment:fragment:$fragment_version"

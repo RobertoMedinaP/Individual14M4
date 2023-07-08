@@ -11,6 +11,7 @@
         android:id="@+id/tv1"
         android:layout_width="371dp"
         android:layout_height="80dp"
+        android:layout_marginTop="16dp"
         android:background="?attr/colorButtonNormal"
         android:text="@string/hello_blank_fragment"
         app:layout_constraintEnd_toEndOf="parent"

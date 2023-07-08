@@ -1,6 +1,7 @@
 package com.example.individual14m4;
 
-import android.app.Fragment;
+import androidx.fragment.app.Fragment;
+
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -47,7 +48,7 @@ public class Fragmento2 extends Fragment {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         if (getArguments() != null) {
-            nombre1 = getArguments().getString("clave1");
+            nombre1 = getArguments().getString("Clave1");
             nombre2 = getArguments().getString("clave2");
         }
     }

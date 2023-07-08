@@ -6,6 +6,8 @@ import androidx.fragment.app.FragmentTransaction;
 
 import android.os.Bundle;
 import android.view.View;
+import com.example.individual14m4.Pregunta;
+import com.example.individual14m4.Fragmento2;
 
 import com.example.individual14m4.databinding.ActivityMainBinding;
 
